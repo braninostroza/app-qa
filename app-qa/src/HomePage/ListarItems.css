@@ -1,0 +1,31 @@
+.item-list-container {
+    background-color: #d3f4e5; /* Fondo verde agua */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.item-list-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.item-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.item-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    border-radius: 5px;
+}
+
+.item-list li:hover {
+    background-color: #e0e0e0; /* Fondo gris más claro al pasar el mouse */
+}
